@@ -92,9 +92,6 @@ section{
     .active-btn{
         background-color: var(--color-secondary) !important;
         transition: all .4s ease-in-out;
-        i{
-            color: var(--color-white) !important;
-        }
     }
     .control{
         padding: 1rem;
@@ -114,4 +111,8 @@ section{
             pointer-events: none; 
         }
     }
+}
+
+.controls > .active-btn > i{
+        color: var(--color-white) !important;
 }
