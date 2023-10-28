@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+
 }
 
 :root{
@@ -89,10 +90,10 @@ section{
     justify-content: center;
     transform: translate(-50%);
     .active-btn{
-        background-color: var(--color-secondary);
+        background-color: var(--color-secondary) !important;
         transition: all .4s ease-in-out;
         i{
-            color: var(--color-white)
+            color: var(--color-white) !important;
         }
     }
     .control{

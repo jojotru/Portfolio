@@ -89,11 +89,11 @@ section {
   transform: translate(-50%);
 }
 .controls .active-btn {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary) !important;
   transition: all 0.4s ease-in-out;
 }
 .controls .active-btn i {
-  color: var(--color-white);
+  color: var(--color-white) !important;
 }
 .controls .control {
   padding: 1rem;
