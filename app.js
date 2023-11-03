@@ -14,11 +14,12 @@ function PageTransitions(){
     }
 
     //Sections Active Class
-    allSections.addEventListener('click', (e) => {
+    
+        allSections.addEventListener('click', (e) =>{
         const id = e.target.dataset.id;
         if(id){
             //remove selected from the other btns
-            sectBtns.forEach((btn) => {
+            sectBtns.forEach((btn) =>{
                 btn.classList.remove('active')
             })
             e.target.classList.add('active')
@@ -28,13 +29,12 @@ function PageTransitions(){
                 section.classList.remove('active')
             })
 
-            //get id in the doc and store it in element
-            const element = document.getElementById(id) 
+            const element = document.getElementById(id); 
             element.classList.add('active');
 
 
         }
-    })
+    });
 }
 
 PageTransitions();
