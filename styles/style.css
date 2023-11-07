@@ -81,11 +81,6 @@ section {
   background-color: blue;
 }
 
-.active {
-  display: block;
-  animation: scaleAnim 1s ease-in-out;
-}
-
 .controls {
   position: fixed;
   z-index: 10;
