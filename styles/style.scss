@@ -84,13 +84,13 @@ section{
 
 .active{
     display: block;
-    animation: scaleAnim 1s ease-in-out;
+    animation: scaleAnim 1s ease-in-out; //scaleAnim is name of keyframe
     @keyframes scaleAnim {
-        0%{
+        0%{ //top of the page
             transform: translateY(-100%) scaleY(0)
         }
 
-        100%{
+        100%{ //bottom of the page
             transform: translateY(0) scaleY(1);
         }
     }
