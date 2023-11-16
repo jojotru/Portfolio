@@ -60,25 +60,25 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: red;
+  background-color: #A67244;
 }
 
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: yellow;
+  background-color: #8C4820;
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: green;
+  background-color: #59200B;
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: blue;
+  background-color: #8C837B;
 }
 
 .active {
@@ -130,4 +130,8 @@ section {
 
 .controls > .active-btn > i {
   color: var(--color-white) !important;
+}
+
+#profile-img {
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */
