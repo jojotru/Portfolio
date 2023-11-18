@@ -61,7 +61,7 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #A67244;
+    // background-color: #A67244;
 }
 
 .sec2{
@@ -139,14 +139,18 @@ section{
 
 #profile-img{
     height: 500px;
+}
+
+.header-content{
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 100%;
+    // height: 100%;
     .left-header{
         display: flex;
         align-items: center;
         position: relative;
         .h-shape{
-            transition: all . 4s ease-in-out;
+            transition: all .4s ease-in-out;
             width: 65%;
             height: 100%;
             background-color: var(--color-secondary);
@@ -154,8 +158,21 @@ section{
             left: 0;
             top: 0;
             z-index: -1;
-            clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-
+            clip-path: polygon(0% 0%, 46% 0%, 79% 100%, 0% 100%);
+        }
+        .image{
+            border-radius: var(--br-sm-2);
+            transition: all .4s ease-in-out;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all .4s ease-in-out;
+                filter: grayscale(100%);
+                &:hover{
+                    filter: greyscale(0);
+                }
+            }
         }
     }
 }
