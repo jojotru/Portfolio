@@ -138,6 +138,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  height: 100%;
 }
 .header-content .left-header {
   display: flex;
