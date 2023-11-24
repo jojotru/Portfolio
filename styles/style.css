@@ -189,6 +189,18 @@ section {
   line-height: 2rem;
 }
 
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+}
+.about-container .right-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
 .btn-con {
   display: flex;
   align-self: flex-start;
@@ -252,5 +264,5 @@ section {
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: bolder;
-  font-size: 5rem;
+  font-size: 6rem;
 }/*# sourceMappingURL=style.css.map */
