@@ -213,6 +213,18 @@ section {
 }
 .about-container .right-about .about-item img {
   height: 450px;
+  overflow: hidden;
+}
+.about-container .left-about {
+  padding-right: 2rem;
+}
+.about-container .left-about p {
+  color: var(--color-grey-1);
+  padding-bottom: 2rem;
+}
+.about-container .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .btn-con {
@@ -278,5 +290,5 @@ section {
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: bolder;
-  font-size: 6rem;
+  font-size: 5.5rem;
 }/*# sourceMappingURL=style.css.map */
