@@ -211,7 +211,7 @@ section {
 }
 .about-container .right-about img:hover {
   cursor: default;
-  transform: translateY(-5px);
+  transform: translateY(-7px);
 }
 .about-container .left-about {
   padding-right: 2rem;
