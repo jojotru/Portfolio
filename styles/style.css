@@ -201,9 +201,11 @@ section {
   grid-gap: 2rem;
   padding-left: 50px;
 }
+.about-container .right-about .about-item {
+  overflow: hidden;
+}
 .about-container .right-about img {
   height: 450px;
-  overflow: hidden;
   border: 1px solid var(--color-grey-5);
   border-radius: 5px;
   transition: all 0.4s ease-in-out;
@@ -223,6 +225,15 @@ section {
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
+}
+
+.about-stats {
+  padding-bottom: 4rem;
+}
+.about-stats .progress-bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
 }
 
 .btn-con {

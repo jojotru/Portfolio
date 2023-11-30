@@ -210,11 +210,10 @@ section{
         grid-gap: 2rem;
         padding-left: 50px;
         .about-item{
-            
+            overflow: hidden;
             }
                 img{
                 height: 450px;
-                overflow: hidden;
                 border: 1px solid var(--color-grey-5);
                 border-radius: 5px;
                 transition: all .4s ease-in-out;
@@ -239,6 +238,15 @@ section{
     }
 }
 
+.about-stats{
+    padding-bottom: 4rem;
+    .progress-bars{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+
+    }
+}
 
 //Independent  Components-----------
 .btn-con{
