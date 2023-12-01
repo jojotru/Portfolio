@@ -235,6 +235,21 @@ section {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
+.about-stats .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+.about-stats .progress-bars .progress-bar .prog-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about-stats .progress-bars .progress-bar .progress-con {
+  display: flex;
+  align-items: center;
+}
+.about-stats .progress-bars .progress-bar .progress-con .prog-text {
+  color: var(--color-grey-2);
+}
 
 .btn-con {
   display: flex;
