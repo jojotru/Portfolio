@@ -310,6 +310,19 @@ section{
     }
 }
 
+//Timeline
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding-bottom: 3rem;
+    .timeline-item{
+        position: relative;
+        padding-left: 3rem;
+        border-left: 1px solid var(--color-grey-5);
+    }
+}
+
 //Independent  Components-----------
 .btn-con{
     display: flex;

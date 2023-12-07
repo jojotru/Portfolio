@@ -297,6 +297,18 @@ section {
   transform: translateX(-50%);
 }
 
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding-bottom: 3rem;
+}
+.timeline .timeline-item {
+  position: relative;
+  padding-left: 3rem;
+  border-left: 1px solid var(--color-grey-5);
+}
+
 .btn-con {
   display: flex;
   align-self: flex-start;
