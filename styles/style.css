@@ -75,7 +75,6 @@ section {
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: #8C837B;
 }
 
 .active {
