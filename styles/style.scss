@@ -448,6 +448,19 @@ section{
     transform: scale(1);
 }
 
+//Contact section
+.contact-content-con{
+    display: flex;
+    padding-top: 3.5rem;
+    .left-contact{
+        flex: 2;
+    }
+    
+    .right-contact{
+        flex: 3;
+    }
+}
+
 
 //Independent  Components-----------
 .btn-con{
