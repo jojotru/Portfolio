@@ -17,9 +17,23 @@
     --color-grey-3: #6c7983;
     --color-grey-4: #56616a;
     --color-grey-5: #2a2e35;
-    --color-grey-6: #12181b;
+    --color-grey-6: #3d3849;
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+}
+
+.light-mode{
+    --color-primary:#ffffff;
+    --color-secondary:#9cd0f1;
+    --color-white: #475255;
+    --color-black: #ffffff;
+    --color-grey0: #f8f8f8;
+    --color-grey-1: #999c9f;
+    --color-grey-2: #b2becd;
+    --color-grey-3: #343a3e;
+    --color-grey-4: #363c41;
+    --color-grey-5: #2a2e35;
+    --color-grey-6: #e3f0f7;
 }
 
 body{
@@ -133,6 +147,30 @@ section{
 
 .controls > .active-btn > i{
         color: var(--color-white) !important;
+}
+
+.theme-btn{
+    top: 5%;
+    right: 3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--color-grey-4);
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 15px rgba(0,0,0,.3);
+    transition: all .1s ease-in-out;
+    &:active{
+        transform: translateY(-3px);
+    }
+    i{
+        font-size: 1.4rem;
+        color: var(--color-grey-2);
+        pointer-events: none;
+    }
 }
 
 // headder content --------------------------
@@ -475,7 +513,7 @@ section{
             display: flex;
             align-items: center;
             color: var(--color-white);
-            background-color:#3D3849;
+            background-color:var(--color-grey-6);
             cursor: pointer;
             justify-content: center;
             width: 50px;
@@ -510,7 +548,7 @@ section{
                 padding: .8rem 1.1rem;
                 outline: none;
                 border: none;
-                background-color: #3D3849;
+                background-color: var(--color-grey-6);
                 width: 100%;
                 color: var(--color-white);
                 resize: none;
@@ -590,7 +628,7 @@ section{
             position: absolute;
             top: 50%;
             left: 50%;
-            color: rgb(61, 56, 73);
+            color: var(--color-grey-6);
             transition: all .4s ease-in-out;
             z-index: -1;
             transform: translate(-50%, -50%);
