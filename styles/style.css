@@ -616,9 +616,9 @@ section {
   }
   header .right-header {
     padding: 2rem !important;
-    background-color: red;
+    background-color: green;
   }
-  .controlls {
+  .controls {
     top: auto;
     bottom: 0;
     flex-direction: row;
