@@ -52,7 +52,7 @@ a{
 }
 
 header{
-    min-height: 100vh;
+    height: 100vh;
     color: var(--color-white);
     overflow: hidden;
 
@@ -99,16 +99,16 @@ section{
 
 .active{
     display: block;
-    animation: scaleAnim 1s ease-in-out; //scaleAnim is name of keyframe
-    @keyframes scaleAnim {
-        0%{ //top of the page
-            transform: translateY(-100%) scaleY(0)
-        }
+    // animation: scaleAnim 1s ease-in-out; //scaleAnim is name of keyframe
+    // // @keyframes scaleAnim {
+    // //     0%{ //top of the page
+    // //         transform: translateY(-100%) scaleY(0)
+    // //     }
 
-        100%{ //bottom of the page
-            transform: translateY(0) scaleY(1);
-        }
-    }
+    // //     100%{ //bottom of the page
+    // //         transform: translateY(0) scaleY(1);
+    // //     }
+    // // }
 }
 
 //Controls
@@ -124,7 +124,7 @@ section{
     transform: translate(-50%);
     .active-btn{
         background-color: var(--color-secondary) !important;
-        transition: all .4s ease-in-out;
+        transition: all .6s ease-in-out;
     }
     .control{
         padding: 1rem;
