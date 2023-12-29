@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     :root{
         --color-primary:#302a40;
         --color-secondary:#5ab5ee;
@@ -23,7 +23,7 @@
     }
 
     .btn-con{
-       margin-left: 7rem;
+       margin-left: 2.5rem;
        background-color: var(--color-secondary);
        border-radius: 25px;
     }
@@ -52,6 +52,19 @@
 
     }
 
+    .header-content .left-header .image{
+        margin-left: 1.5rem;
+        width: 90%;
+    }
+
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+    }
+
     .controls{
         top: auto;
         bottom: 0;
@@ -61,6 +74,7 @@
         transform: translateX(-50%);
         width: 100%;
         background-color: var(--color-grey-5);
+        position: fixed;
         .control{
             margin: 1rem;
         }
