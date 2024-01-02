@@ -125,6 +125,9 @@ section{
     .active-btn{
         background-color: var(--color-secondary) !important;
         transition: all .6s ease-in-out;
+        i{
+            color: var(--color-white) !important;
+        }
     }
     .control{
         padding: 1rem;
@@ -146,9 +149,9 @@ section{
     }
 }
 
-.controls > .active-btn > i{
-        color: var(--color-white) !important;
-}
+// .controls > .active-btn > i{
+//         color: var(--color-white) !important;
+// }
 
 .theme-btn{
     top: 5%;
