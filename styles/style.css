@@ -16,7 +16,7 @@
   --color-grey-3: #6c7983;
   --color-grey-4: #56616a;
   --color-grey-5: #2a2e35;
-  --color-grey-6: #3d3849;
+  --color-grey-6: #322d3e;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
@@ -32,7 +32,7 @@
   --color-grey-3: #343a3e;
   --color-grey-4: #363c41;
   --color-grey-5: #2a2e35;
-  --color-grey-6: #e3f0f7;
+  --color-grey-6: #f1f8fc;
 }
 
 body {
@@ -163,7 +163,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 100%;
+  min-height: 100vh;
 }
 .header-content .left-header {
   display: flex;
@@ -551,6 +551,7 @@ section {
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  white-space: nowrap;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
@@ -612,7 +613,7 @@ section {
     --color-grey-3: #6c7983;
     --color-grey-4: #56616a;
     --color-grey-5: #2a2e35;
-    --color-grey-6: #3d3849;
+    --color-grey-6: #342f3e;
   }
   header {
     padding: 0;
@@ -629,9 +630,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .btn-text {
-    white-space: nowrap;
   }
   .theme-btn {
     width: 50px;
@@ -691,8 +689,34 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
+  #contact {
+    min-height: 120vh;
+  }
+  .contact-content-con {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .contact-content-con .right-contact .i-c-2 {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact .i-c-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
   .section {
     padding: 2rem 2.5rem;
+  }
+  .main-title h2 {
+    font-size: 2.5rem;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3rem;
   }
   .controls {
     top: auto;
@@ -706,5 +730,34 @@ section {
   }
   .controls .control {
     margin: 1rem;
+  }
+}
+@media screen and (max-width: 1432px) {
+  header {
+    padding: 0 !important;
+  }
+  .portfolios {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .section {
+    padding: 7rem 11rem;
+  }
+  #contact {
+    min-height: 120vh;
+  }
+  .contact-content-con {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .contact-content-con .right-contact .i-c-2 {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact .i-c-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
