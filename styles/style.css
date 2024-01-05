@@ -21,7 +21,6 @@
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
   --hair: rgb(30, 22, 6);
   --shirt: beige;
-  --buttons: rgb(49, 141, 246);
   --cheeks: pink;
   --bg: #bddaef;
   --skin: #EEAD76;
@@ -610,9 +609,10 @@ section {
 
 .avatar-con {
   border: 1px solid red;
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   margin-right: 25px;
+  position: relative;
 }
 .avatar-con .blue-bg {
   min-width: 100%;
@@ -634,6 +634,47 @@ section {
   border-radius: 50%;
   transform: skewX(-12deg) scaleY(2);
   overflow: hidden;
+}
+.avatar-con .blue-bg .shirt .button {
+  background-color: var(--color-secondary);
+  width: 14px;
+  height: 7px;
+  position: relative;
+  left: 116px;
+  top: 8px;
+  border-radius: 50%;
+  margin: 8px;
+}
+.avatar-con .blue-bg .neck {
+  width: 17%;
+  height: 7rem;
+  background-color: var(--skin);
+  position: relative;
+  border-radius: inherit;
+  top: 8.5rem;
+  left: 12rem;
+  z-index: 1;
+}
+.avatar-con .blue-bg .neck .neckshadow {
+  width: 0;
+  height: 0;
+  border-bottom: 126px solid transparent;
+  border-left: 52px solid var(--shadow);
+  border-bottom-left-radius: 50%;
+  position: relative;
+  bottom: 3px;
+  right: 6px;
+  transform: skewX(19deg) scaleY(1);
+}
+.avatar-con .blue-bg .head {
+  width: 19rem;
+  height: 19rem;
+  background-color: var(--skin);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7rem;
+  left: 4rem;
+  z-index: 10;
 }
 
 @media screen and (max-width: 1432px) {
