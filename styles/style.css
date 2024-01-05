@@ -19,6 +19,13 @@
   --color-grey-6: #322d3e;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+  --hair: rgb(30, 22, 6);
+  --shirt: beige;
+  --buttons: rgb(49, 141, 246);
+  --cheeks: pink;
+  --bg: #bddaef;
+  --skin: #EEAD76;
+  --shadow: #b48156;
 }
 
 .light-mode {
@@ -599,6 +606,34 @@ section {
   transform: translate(-50%, -50%);
   font-weight: bolder;
   font-size: 5.5rem;
+}
+
+.avatar-con {
+  border: 1px solid red;
+  width: 450px;
+  height: 450px;
+  margin-right: 25px;
+}
+.avatar-con .blue-bg {
+  min-width: 100%;
+  background-color: var(--bg);
+  height: 100%;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.avatar-con .blue-bg .shirt {
+  background-color: var(--shirt);
+  height: 85px;
+  width: 67%;
+  position: relative;
+  left: 5rem;
+  bottom: -22rem;
+  border-radius: 50%;
+  transform: skewX(-12deg) scaleY(2);
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1432px) {
