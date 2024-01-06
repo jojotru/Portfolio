@@ -21,7 +21,7 @@
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
   --hair: rgb(30, 22, 6);
   --shirt: beige;
-  --cheeks: pink;
+  --cheeks: #F09083;
   --bg: #bddaef;
   --skin: #EEAD76;
   --shadow: #b48156;
@@ -675,6 +675,43 @@ section {
   bottom: 7rem;
   left: 4rem;
   z-index: 10;
+}
+.avatar-con .blue-bg .head .eye {
+  position: relative;
+  top: 50%;
+  left: 8rem;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 30px;
+  background-color: var(--color-black);
+  border-radius: 50%;
+  margin-right: 6rem;
+  display: inline-table;
+}
+.avatar-con .blue-bg .head .cheeks {
+  position: relative;
+  top: 49%;
+  left: 6rem;
+  width: 51px;
+  height: 30px;
+  background-color: var(--cheeks);
+  border-radius: 50%;
+  margin-right: 6rem;
+  display: inline-table;
+  transform: skew(-9deg, 1deg);
+}
+.avatar-con .blue-bg .head .mouth {
+  position: absolute;
+  top: 11rem;
+  left: 11rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 0 24px 0 0 rgb(171, 65, 83);
+  transition: all 0.1s ease-in-out;
+}
+.avatar-con .blue-bg .head .mouth:hover {
+  box-shadow: 0 6px 0 0 rgb(171, 65, 83);
 }
 
 @media screen and (max-width: 1432px) {
