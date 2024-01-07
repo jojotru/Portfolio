@@ -19,7 +19,7 @@
   --color-grey-6: #322d3e;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-  --hair: rgb(30, 22, 6);
+  --hair: #1e1606;
   --shirt: beige;
   --cheeks: #F09083;
   --bg: #bddaef;
@@ -722,7 +722,7 @@ section {
   display: inline-table;
   transform: skew(-9deg, 1deg);
 }
-.avatar-con .blue-bg .head .mouth {
+.avatar-con .blue-bg .head .mouth1 {
   position: absolute;
   top: 11rem;
   left: 11rem;
@@ -730,10 +730,14 @@ section {
   height: 3rem;
   border-radius: 50%;
   box-shadow: 0 24px 0 0 rgb(171, 65, 83);
-  transition: all 0.1s ease-in-out;
+  transition: height 5s ease-in-out;
 }
-.avatar-con .blue-bg .head .mouth:hover {
-  box-shadow: 0 6px 0 0 rgb(171, 65, 83);
+.avatar-con .blue-bg .head .mouth1:hover {
+  box-shadow: 0 7px 0 0 rgb(171, 65, 83);
+  transition: height 5s ease-in-out;
+}
+.avatar-con .blue-bg .head .hair .hair1 {
+  height: 70px;
 }
 
 @media screen and (max-width: 1432px) {

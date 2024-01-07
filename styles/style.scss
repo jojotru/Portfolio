@@ -20,7 +20,7 @@
     --color-grey-6: #322d3e;
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-    --hair: rgb(30, 22, 6);
+    --hair: #1e1606;
     --shirt: beige;
     --cheeks: #F09083;
     --bg: #bddaef;
@@ -733,6 +733,7 @@ section{
                 border-top-right-radius: 10rem;
                 transform: skew(0, -36deg);
                 top: 6rem;
+                
             }
             .eyebrow2{
                 position: relative;
@@ -769,7 +770,7 @@ section{
                 display: inline-table;
                 transform: skew(-9deg, 1deg);
             }
-            .mouth{
+            .mouth1{
                 position: absolute;
                 top: 11rem;
                 left: 11rem;
@@ -777,16 +778,24 @@ section{
                 height: 3rem;
                 border-radius: 50%;
                 box-shadow: 0 24px 0 0 rgb(171, 65, 83);
-                transition: all .1s ease-in-out;
+                transition: height 5s ease-in-out;
                 &:hover{
-                    box-shadow: 0 6px 0 0 rgb(171, 65, 83);
+                    box-shadow: 0 7px 0 0 rgb(171, 65, 83);
+                    transition: height 5s ease-in-out;
                     
                 }
+
+            }
+            .hair{
+                .hair1{
+                    height: 70px;
+                }
+        }
             }
         }
         
+
     }
-}
 
 
 
