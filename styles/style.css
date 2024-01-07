@@ -19,7 +19,8 @@
   --color-grey-6: #322d3e;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-  --hair: #1e1606;
+  --hair: #322306;
+  --hair2: #241407;
   --shirt: beige;
   --cheeks: #F09083;
   --bg: #bddaef;
@@ -634,6 +635,7 @@ section {
   border-radius: 50%;
   transform: skewX(-12deg) scaleY(2);
   overflow: hidden;
+  z-index: 1;
 }
 .avatar-con .blue-bg .shirt .button {
   background-color: var(--color-secondary);
@@ -674,7 +676,7 @@ section {
   position: absolute;
   bottom: 7rem;
   left: 4rem;
-  z-index: 10;
+  z-index: 1;
 }
 .avatar-con .blue-bg .head .eyebrow1 {
   position: relative;
@@ -686,6 +688,7 @@ section {
   border-top-right-radius: 10rem;
   transform: skew(0, -36deg);
   top: 6rem;
+  z-index: 1;
 }
 .avatar-con .blue-bg .head .eyebrow2 {
   position: relative;
@@ -736,8 +739,94 @@ section {
   box-shadow: 0 7px 0 0 rgb(171, 65, 83);
   transition: height 5s ease-in-out;
 }
-.avatar-con .blue-bg .head .hair .hair1 {
-  height: 70px;
+.avatar-con .blue-bg .hair {
+  background-color: var(--hair2);
+  width: 10rem;
+  height: 144px;
+  margin-left: 7rem;
+}
+.avatar-con .blue-bg .hair .hair1 {
+  background-image: url(/img/hair1.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  position: absolute;
+  right: 17rem;
+  height: 100%;
+  width: 50%;
+  top: 0rem;
+  border-bottom-right-radius: 25%;
+  border-top-left-radius: 100%;
+  z-index: 1;
+}
+.avatar-con .blue-bg .hair .hair1:before {
+  content: "";
+  background-image: url(/img/hair1.1.svg);
+  background-position: center;
+  position: inherit;
+  background-repeat: no-repeat;
+  height: 89%;
+  width: 62%;
+  left: 77px;
+  top: 0rem;
+  border-bottom-right-radius: 14%;
+  background-size: cover;
+}
+.avatar-con .blue-bg .hair .bangs {
+  background-color: var(--hair);
+  border-radius: 30% 70% 100% 0%/34% 48% 52% 66%;
+  width: 15rem;
+  height: 7rem;
+  position: absolute;
+  top: -4rem;
+  left: 6rem;
+  z-index: 1;
+}
+.avatar-con .blue-bg .hair .bangs:before {
+  content: "";
+  background-color: var(--hair2);
+  width: 13rem;
+  height: 5rem;
+  position: inherit;
+  top: 2rem;
+  left: 1rem;
+  z-index: 2;
+  border-radius: 30% 70% 100% 0%/34% 48% 52% 66%;
+}
+.avatar-con .blue-bg .hair .bangs:after {
+  content: "";
+  background-color: var(--skin);
+  width: 4rem;
+  height: 3rem;
+  position: absolute;
+  top: 13rem;
+  left: 0rem;
+  z-index: 2;
+  border-radius: 50%;
+}
+.avatar-con .blue-bg .hair .hair2 {
+  background-image: url(/img/hair2.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  left: 17rem;
+  height: 100%;
+  width: 50%;
+  top: -1rem;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 50%;
+}
+.avatar-con .blue-bg .hair .hair2:before {
+  content: "";
+  background-image: url(/img/hair2.2.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  height: 96%;
+  width: 55%;
+  border-top-right-radius: 50%;
 }
 
 @media screen and (max-width: 1432px) {
