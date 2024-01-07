@@ -676,6 +676,28 @@ section {
   left: 4rem;
   z-index: 10;
 }
+.avatar-con .blue-bg .head .eyebrow1 {
+  position: relative;
+  left: 6rem;
+  width: 25px;
+  height: 12px;
+  background-color: var(--color-black);
+  border-top-left-radius: 9rem;
+  border-top-right-radius: 10rem;
+  transform: skew(0, -36deg);
+  top: 6rem;
+}
+.avatar-con .blue-bg .head .eyebrow2 {
+  position: relative;
+  width: 25px;
+  height: 12px;
+  background-color: var(--color-black);
+  border-top-left-radius: 9rem;
+  border-top-right-radius: 10rem;
+  transform: skew(0, 29deg);
+  top: 5rem;
+  left: 16rem;
+}
 .avatar-con .blue-bg .head .eye {
   position: relative;
   top: 50%;
