@@ -45,3 +45,53 @@ function PageTransitions(){
 }
 
 PageTransitions();
+
+//-------------------------------
+
+const eye = document.getElementsByClassName('eye')
+
+document.onmousemove = (event) => {
+    const x = event.clientX * 100 / window.innerWidth + '%'
+    const y = event.clientY * 100 / window.innerHeight + '%'
+
+    for(let i = 0; i < 2; i++){
+        eye[i].style.left = x
+        eye[i].style.top = y
+
+        eye[i].style.transform = `translate( -${x}, -${y})`
+
+    }
+}
+
+
+
+// const eyeball = document.querySelector(".eye");
+
+// document.addEventListener('mousemove', (e) => {
+//     console.log(e)
+
+//     const mouseX = e.clientX;
+//     const mouseY = e.clientY;
+
+//     const a = document.getElementsByClassName("head")
+//     const rekt = head.getBoundingClientRect();
+//     const aX = rekt.left + rekt.width / 2;
+//     const aY = rekt.top + rekt.height / 2;
+
+//     const angleDeg = angle(mouseX, mouseY, aX, aY);
+
+//     console.log(angleDeg)
+
+//     const eyes = document.querySelectorAll('.eye')
+//     eyes.forEach(eye => {
+//         eye.style.transform = `rotate(${90 + angleDeg}deg)`;
+//     })
+// })
+
+// function angle(cx, cy, ex, ey) {
+//     const dy = ey - cy;
+//     const dx = ex - cx;
+//     const rad = Math.atan2(dx, dy);
+//     const deg = rad * 180 / Math.PI;
+//     return deg;
+// }

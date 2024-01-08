@@ -609,7 +609,6 @@ section {
 }
 
 .avatar-con {
-  border: 1px solid red;
   width: 400px;
   height: 400px;
   margin-right: 25px;
@@ -683,7 +682,7 @@ section {
   left: 6rem;
   width: 25px;
   height: 12px;
-  background-color: var(--color-black);
+  background-color: black;
   border-top-left-radius: 9rem;
   border-top-right-radius: 10rem;
   transform: skew(0, -36deg);
@@ -694,24 +693,48 @@ section {
   position: relative;
   width: 25px;
   height: 12px;
-  background-color: var(--color-black);
+  background-color: black;
   border-top-left-radius: 9rem;
   border-top-right-radius: 10rem;
   transform: skew(0, 29deg);
   top: 5rem;
   left: 16rem;
 }
-.avatar-con .blue-bg .head .eye {
+.avatar-con .blue-bg .head .eyehole1 {
+  position: absolute;
+  width: 45px;
+  height: 2.5rem;
+  top: 117px;
+  left: 7rem;
+}
+.avatar-con .blue-bg .head .eyehole1 .eye {
   position: relative;
   top: 50%;
   left: 8rem;
   transform: translate(-50%, -50%);
   width: 25px;
   height: 30px;
-  background-color: var(--color-black);
+  background-color: black;
   border-radius: 50%;
-  margin-right: 6rem;
-  display: inline-table;
+  margin-right: 3rem;
+}
+.avatar-con .blue-bg .head .eyehole2 {
+  position: absolute;
+  width: 45px;
+  height: 2.5rem;
+  top: 117px;
+  left: 14rem;
+}
+.avatar-con .blue-bg .head .eyehole2 .eye {
+  position: relative;
+  top: 50%;
+  left: 8rem;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 3rem;
 }
 .avatar-con .blue-bg .head .cheeks {
   position: relative;
@@ -954,7 +977,13 @@ section {
     grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
+  .left-header .image {
+    margin-left: -19px !important;
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 430px) {
   .sec2 .main-title {
     width: 70%;
     margin: 0 50px;
