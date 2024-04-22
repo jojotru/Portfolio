@@ -822,30 +822,30 @@ section{
             height: 144px;
             margin-left: 7rem;
             .hair1{
-                background-image: url(../img/hair1.svg);
-                background-position: center;
-                background-repeat: repeat;
-                background-size: contain;
-                position: absolute;
-                right: 17rem;
-                height: 100%;
-                width: 50%;
-                top: 0rem;
-                border-bottom-right-radius: 25%;
-                border-top-left-radius: 100%;
-                z-index: 1;
-                &:before{
-                    content: '';
-                    background-image: url(../img/hair1.1.svg);
-                    background-position: center;
-                    position: inherit;
-                    background-repeat: no-repeat;
-                    height: 89%;
-                    width: 62%;
-                    left: 77px;
-                    top: 0rem;
-                    border-bottom-right-radius: 14%;
-                    background-size: cover;
+                background-image: url(/img/hair.jpg);
+                // background-position: center;
+                // background-repeat: repeat;
+                // background-size: contain;
+                // position: absolute;
+                // right: 17rem;
+                // height: 100%;
+                // width: 50%;
+                // top: 0rem;
+                // border-bottom-right-radius: 25%;
+                // border-top-left-radius: 100%;
+                // z-index: 1;
+                // &:before{
+                //     content: '';
+                //     background-image: url(../img/hair1.1.svg);
+                //     background-position: center;
+                //     position: inherit;
+                //     background-repeat: no-repeat;
+                //     height: 89%;
+                //     width: 62%;
+                //     left: 77px;
+                //     top: 0rem;
+                //     border-bottom-right-radius: 14%;
+                //     background-size: cover;
 
                 }
             }.bangs{
@@ -881,30 +881,30 @@ section{
                     border-radius: 50%;
                 }
             }
-            .hair2{
-                background-image: url(../img/hair2.svg);
-                background-position: center;
-                background-repeat: repeat;
-                background-size: cover;
-                position: absolute;
-                left: 17rem;
-                height: 100%;
-                width: 50%;
-                top: -1rem;
-                border-top-right-radius: 100%;
-                border-bottom-left-radius: 50%;
-                &:before{
-                    content: '';
-                    background-image: url(../img/hair2.2.svg);
-                    background-position: center;
-                    background-repeat: repeat;
-                    background-size: cover;
-                    position: absolute;
-                    height: 96%;
-                    width: 55%;
-    border-top-right-radius: 50%;
-                }
-            }
+    //         .hair2{
+    //             background-image: url(../img/hair2.svg);
+    //             background-position: center;
+    //             background-repeat: repeat;
+    //             background-size: cover;
+    //             position: absolute;
+    //             left: 17rem;
+    //             height: 100%;
+    //             width: 50%;
+    //             top: -1rem;
+    //             border-top-right-radius: 100%;
+    //             border-bottom-left-radius: 50%;
+    //             &:before{
+    //                 content: '';
+    //                 background-image: url(../img/hair2.2.svg);
+    //                 background-position: center;
+    //                 background-repeat: repeat;
+    //                 background-size: cover;
+    //                 position: absolute;
+    //                 height: 96%;
+    //                 width: 55%;
+    // border-top-right-radius: 50%;
+    //             }
+    //         }
         }
     }
         
