@@ -769,7 +769,7 @@ section {
   margin-left: 7rem;
 }
 .avatar-con .blue-bg .hair .hair1 {
-  background-image: url(/img/hair1.svg);
+  background-image: url(../img/hair1.svg);
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
@@ -784,7 +784,7 @@ section {
 }
 .avatar-con .blue-bg .hair .hair1:before {
   content: "";
-  background-image: url(/img/hair1.1.svg);
+  background-image: url(../img/hair1.1.svg);
   background-position: center;
   position: inherit;
   background-repeat: no-repeat;
@@ -828,7 +828,7 @@ section {
   border-radius: 50%;
 }
 .avatar-con .blue-bg .hair .hair2 {
-  background-image: url(/img/hair2.svg);
+  background-image: url(../img/hair2.svg);
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
@@ -842,7 +842,7 @@ section {
 }
 .avatar-con .blue-bg .hair .hair2:before {
   content: "";
-  background-image: url(/img/hair2.2.svg);
+  background-image: url(../img/hair2.2.svg);
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
