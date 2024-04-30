@@ -231,7 +231,6 @@ section {
 .about-container .right-about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
   padding-left: 50px;
 }
 .about-container .right-about .about-item {
@@ -266,12 +265,12 @@ section {
 }
 .about-stats .progress-bars {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 .about-stats .progress-bars .progress-bar {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .about-stats .progress-bars .progress-bar .prog-title {
   text-transform: uppercase;
@@ -701,44 +700,40 @@ section {
   left: 16rem;
 }
 .avatar-con .blue-bg .head .eyehole1 {
-  position: absolute;
+  position: relative;
   width: 45px;
   height: 2.5rem;
-  top: 117px;
-  left: 7rem;
+  top: 90px;
+  left: 15rem;
 }
 .avatar-con .blue-bg .head .eyehole1 .eye {
   position: relative;
   top: 50%;
-  left: 8rem;
   transform: translate(-50%, -50%);
   width: 25px;
   height: 30px;
   background-color: black;
   border-radius: 50%;
-  margin-right: 3rem;
 }
 .avatar-con .blue-bg .head .eyehole2 {
   position: absolute;
   width: 45px;
   height: 2.5rem;
   top: 117px;
-  left: 14rem;
+  left: 8rem;
 }
 .avatar-con .blue-bg .head .eyehole2 .eye {
   position: relative;
   top: 50%;
-  left: 8rem;
   transform: translate(-50%, -50%);
   width: 25px;
   height: 30px;
   background-color: black;
   border-radius: 50%;
-  margin-right: 3rem;
 }
 .avatar-con .blue-bg .head .cheeks {
   position: relative;
-  top: 49%;
+  top: 36%;
   left: 6rem;
   width: 51px;
   height: 30px;

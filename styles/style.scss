@@ -256,7 +256,6 @@ section{
     .right-about{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
         padding-left: 50px;
         .about-item{
             overflow: hidden;  
@@ -292,11 +291,11 @@ section{
     padding-bottom: 4rem;
     .progress-bars{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
         .progress-bar{
             display: flex;
             flex-direction: column;
+            align-items: center;
             .prog-title{
                 text-transform: uppercase;
                 font-weight: 500;
@@ -750,21 +749,21 @@ section{
                 left: 16rem;
             }
             .eyehole1{
-                position: absolute;
+                position: relative;
                 width: 45px;
                 height: 2.5rem;
-                top: 117px;
-                left: 7rem;
+                top: 90px;
+                left: 15rem;
+
                 .eye{
                     position: relative;
                     top: 50%;
-                    left: 8rem;
                     transform: translate(-50%, -50%);
                     width: 25px;
                     height: 30px;
                     background-color: black;
                     border-radius: 50%;
-                    margin-right: 3rem;
+                
                     
                 }
             }
@@ -773,23 +772,22 @@ section{
                 width: 45px;
                 height: 2.5rem;
                 top: 117px;
-                left: 14rem;
+                left: 8rem;
                 .eye{
                     position: relative;
                     top: 50%;
-                    left: 8rem;
                     transform: translate(-50%, -50%);
                     width: 25px;
                     height: 30px;
                     background-color: black;
                     border-radius: 50%;
-                    margin-right: 3rem;
+                    
                     
                 }
             }
             .cheeks{
                 position: relative;
-                top: 49%;
+                top: 36%;
                 left: 6rem;
                 width: 51px;
                 height: 30px;
@@ -822,7 +820,7 @@ section{
             height: 144px;
             margin-left: 7rem;
             .hair1{
-                background-image: url(/img/hair.jpg);
+                // background-image: url(/img/hair.jpg);
                 background-image: url(../img/hair1.svg);
                 background-position: center;
                 background-repeat: repeat;
