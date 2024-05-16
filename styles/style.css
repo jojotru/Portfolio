@@ -380,6 +380,7 @@ section {
 .timeline .timeline-item li {
   color: var(--color-grey-2);
   font-size: 0.8rem;
+  padding-bottom: 10px;
 }
 
 .port-text {
@@ -478,7 +479,7 @@ section {
   margin-top: 3rem;
   margin-bottom: 1rem;
   line-height: 2rem;
-  padding-right: 2.5rem;
+  padding-right: 11rem;
 }
 .contact-content-con .contact-icon {
   display: flex;
