@@ -979,6 +979,9 @@ section {
   }
 }
 @media screen and (max-width: 430px) {
+  .avatar-con .blue-bg .head .cheeks {
+    top: 7rem;
+  }
   .sec2 .main-title {
     width: 70%;
     margin: 0 50px;
