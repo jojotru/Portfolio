@@ -541,7 +541,7 @@ section{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-size: 1.3rem;
+                font-size: 2.3rem;
             }
         }
     }
@@ -910,6 +910,25 @@ section{
 
 }
 
+//Thank you page
+
+.tyBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    border: 2px solid pink;
+    h1{
+        font-size: 60px;
+    }
+        a{
+            position: absolute;
+            text-align: center;
+            top: 55%;
+            font-size: 30px;
+        }
+}
 
 
 @import './media';

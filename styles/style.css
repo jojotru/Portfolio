@@ -508,7 +508,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
 }
 .contact-content-con .right-contact {
   flex: 3;
@@ -845,6 +845,24 @@ section {
   height: 96%;
   width: 55%;
   border-top-right-radius: 50%;
+}
+
+.tyBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  border: 2px solid pink;
+}
+.tyBox h1 {
+  font-size: 60px;
+}
+.tyBox a {
+  position: absolute;
+  text-align: center;
+  top: 55%;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 1432px) {
