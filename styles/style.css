@@ -853,7 +853,6 @@ section {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  border: 2px solid pink;
 }
 .tyBox h1 {
   font-size: 60px;
@@ -1056,7 +1055,7 @@ section {
     margin-top: 1.5rem;
   }
   .section {
-    padding: 2rem 2.5rem 14rem;
+    padding: 2rem 2.5rem 15rem;
   }
   .main-title h2 {
     font-size: 2.5rem;
