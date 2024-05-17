@@ -594,6 +594,9 @@ section {
   margin: 4px 2px;
   cursor: pointer;
   font-family: inherit;
+  z-index: 10;
+  position: relative;
+  width: 5rem;
 }
 
 .main-title {
