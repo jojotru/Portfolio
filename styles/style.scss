@@ -625,6 +625,19 @@ section{
     }
 }
 
+.send-btn{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
 .main-title{
     text-align: center;
     h2{
