@@ -522,6 +522,7 @@ section {
   font-size: inherit;
   font-family: inherit;
   padding: 0.8rem 1.1rem;
+  margin: 0 5px;
   outline: none;
   border: none;
   background-color: var(--color-grey-6);
