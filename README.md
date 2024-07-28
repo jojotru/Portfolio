@@ -1,10 +1,10 @@
 # My Portfolio 💼
 
 
-####This is my portfolio project created with HTML, SASS, and JavaScript to showcase my skills. 
+### This is my portfolio project created with HTML, CSS(SASS), and JavaScript to showcase my skills. 
 Within this portfolio, there are other projects as well!  
 
-👩🏻‍💻 Click here to view. 
+#### 👩🏻‍💻 Click here to view. 
 
 🤓 *Fun fact, I created my avatar using only CSS.*
 
